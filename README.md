@@ -8,7 +8,7 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 - [repo](https://github.com/seeReadCode/bookmarks)
 - [prod](https://seereadcode.github.io/bookmarks/)
 - [codespace dev](https://shiny-lamp-wpjpj5q7vj3ggw9.github.dev/)
-- [codespace brodfwser](https://shiny-lamp-wpjpj5q7vj3ggw9-4205.app.github.dev/)
+- [codespace browser](https://shiny-lamp-wpjpj5q7vj3ggw9-4205.app.github.dev/)
 - [codespace admin](https://github.com/codespaces?repository_id=1036822786)
 
 
@@ -32,7 +32,7 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 fi-
 - locate server log to debug 404
 - decide deploy.yml (from cloned repo) v. alt from github.com
-- ... and fix build 
+- ... and fix build
 > ⚠️ Heads up! GitHub Pages _does not_ support serverless or edge functions. This means dynamic functionality will be disabled. See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
 
 
