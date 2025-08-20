@@ -7,10 +7,12 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 ## Links
 - [repo](https://github.com/seeReadCode/bookmarks)
 - [prod](https://seereadcode.github.io/bookmarks/)
-- [codespace dev](https://shiny-lamp-wpjpj5q7vj3ggw9.github.dev/)
+- [codespace editor](https://shiny-lamp-wpjpj5q7vj3ggw9.github.dev/)
 - [codespace browser](https://shiny-lamp-wpjpj5q7vj3ggw9-4205.app.github.dev/)
-- [codespace admin](https://github.com/codespaces?repository_id=1036822786)
 
+see also
+- [codespace admin](https://github.com/codespaces?repository_id=1036822786)
+- [gh codespace docs](https://docs.github.com/en/codespaces/troubleshooting/github-codespaces-logs)
 
 ## Docs
 
@@ -29,14 +31,18 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 
 ---
 ## TODO
-fi-
-- locate server log to debug 404
-- decide deploy.yml (from cloned repo) v. alt from github.com
-- ... and fix build
-> ⚠️ Heads up! GitHub Pages _does not_ support serverless or edge functions. This means dynamic functionality will be disabled. See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
+- TODO fix build
+- TODO locate server log to debug 404
+- TODO notify of github action
+- TODO sync dotfiles https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces
+- TODO implement serverless function
+    > ⚠️ Heads up! GitHub Pages _does not_ support serverless or edge functions. This means dynamic functionality will be disabled. See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
+- TODO sync via something like firebase
 
 
 ## Changelog
+- Still can't find nextjs server log and getting 404 on codespace browser
+- Using in browser hotkeys
 - Tested VSCode Client
 - Enabled Github Pages on github.com via suggested Next.js config
 - Replaced `next-js-github-pages`
