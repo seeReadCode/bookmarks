@@ -30,6 +30,7 @@ export async function parseRSSFeed(url: string): Promise<RSSFeed> {
           // Handle both single item and array of items
           const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item].filter(Boolean);
 
+          // eslint-disable-next-line
           const items: RSSItem[] = rawItems.map((item: any) => ({
             title: item.title || '',
             description: item.description || '',
@@ -87,7 +88,7 @@ class RSSCache {
 
     if (!entry) return null;
 
-    const isExpired = Date.now() - entry.timestamp > entry.ttl;
+    const isExpired = Date.now() - entry.timestamp > entry.ttl || Date.now() - entry.timestamp > (ttlMinutes * 60 * 1000);
     if (isExpired) {
       this.cache.delete(url);
       return null;

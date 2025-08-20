@@ -1,5 +1,4 @@
 
-import { GetStaticProps, InferGetStaticPropsType } from 'next';
 import { RSSFeed } from '../types/rss';
 import { parseRSSFeed } from '../lib/rssParser';
 
