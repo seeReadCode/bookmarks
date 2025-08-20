@@ -9,6 +9,7 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 - [prod](https://seereadcode.github.io/bookmarks/)
 - [codespace editor](https://shiny-lamp-wpjpj5q7vj3ggw9.github.dev/)
 - [codespace browser](https://shiny-lamp-wpjpj5q7vj3ggw9-4205.app.github.dev/)
+- [action](https://github.com/seeReadCode/bookmarks/actions/runs/17102441132)
 
 see also
 - [codespace admin](https://github.com/codespaces?repository_id=1036822786)
