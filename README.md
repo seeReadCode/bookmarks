@@ -8,14 +8,21 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 - [repo](https://github.com/seeReadCode/bookmarks)
 - [prod](https://seereadcode.github.io/bookmarks/)
 - [codespace editor](https://shiny-lamp-wpjpj5q7vj3ggw9.github.dev/)
-- [codespace browser](https://shiny-lamp-wpjpj5q7vj3ggw9-4205.app.github.dev/)
+- [codespace browser](https://shiny-lamp-wpjpj5q7vj3ggw9-3000.app.github.dev/bookmarks)
 - [action](https://github.com/seeReadCode/bookmarks/actions/runs/17102441132)
 
 see also
 - [codespace admin](https://github.com/codespaces?repository_id=1036822786)
 - [gh codespace docs](https://docs.github.com/en/codespaces/troubleshooting/github-codespaces-logs)
 
+comp
+- [matt wolf's drops](https://github.com/mattwoodco/drops)
+
 ## Docs
+
+```sh
+npm run dev
+```
 
 ## HOTKEYS
 - CTRL SHIFT G - Github pane
@@ -32,16 +39,19 @@ see also
 
 ---
 ## TODO
-- TODO fix build
-- TODO locate server log to debug 404
-- TODO notify of github action
-- TODO sync dotfiles https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces
+- TODO codespaces notify of github action
+- TODO codespaces sync dotfiles https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces
 - TODO implement serverless function
     > ⚠️ Heads up! GitHub Pages _does not_ support serverless or edge functions. This means dynamic functionality will be disabled. See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
 - TODO sync via something like firebase
+- TODO robust testing...
+- TODO resolve node version conflict as per creation log in codespace Node.js 16.20.2 vs 20 assumed by asdf
+- TODO consider Oauth a la drops
 
 
 ## Changelog
+- Parsing RSS and rendering, h/t to Claude and Copilot for the typescript rss parser
+- Building local, actions, and codepsaces
 - Still can't find nextjs server log and getting 404 on codespace browser
 - Using in browser hotkeys
 - Tested VSCode Client
