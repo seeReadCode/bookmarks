@@ -9,9 +9,9 @@ interface BlogPageProps {
 
 export default async function Page() {
   let myBlog: BlogPageProps;
+  const RSS_FEED_URL = 'https://bg.raindrop.io/rss/public/58719856';
   try {
     // Replace with your RSS feed URL
-    const RSS_FEED_URL = 'https://bg.raindrop.io/rss/public/58719856';
     const feed = await parseRSSFeed(RSS_FEED_URL);
     myBlog = {
       feed,
@@ -32,7 +32,9 @@ export default async function Page() {
   }
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">{myBlog.feed.title}</h1>
+      <h1 className="text-3xl font-bold mb-6">bookmarks&nbsp;
+        <a className="text-xl text-blue-600 hover:text-blue-800" href={RSS_FEED_URL}>rss</a>
+      </h1>
       <p className="text-gray-600 mb-8">{myBlog.feed.description}</p>
       <p className="text-sm text-gray-500 mb-8">Last updated: {myBlog.lastUpdated}</p>
       <div className="space-y-6">

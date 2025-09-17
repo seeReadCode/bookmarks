@@ -13,7 +13,8 @@ Based on [nextjs-github-pages](https://github.com/gregrickaby/nextjs-github-page
 
 see also
 - [codespace admin](https://github.com/codespaces?repository_id=1036822786)
-- [gh codespace docs](https://docs.github.com/en/codespaces/troubleshooting/github-codespaces-logs)
+- [gh codespace docs](https://docs.github.com/en/codespaces/)
+- [gh devcontainer docs](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)
 
 comp
 - [matt wolf's drops](https://github.com/mattwoodco/drops)
@@ -21,6 +22,7 @@ comp
 ## Docs
 
 ```sh
+cd /workspaces/bookmarks
 npm run dev
 ```
 
@@ -31,7 +33,7 @@ npm run dev
 - CMD SHIFT P - select command
 
 ### CUSTOM
-- TODO CTRL SHIFT P should raise command palette
+- CTRL SHIFT P should raise command palette
 - CTRL SHIFT W - close tab
 - CTRL SHIFT ] - next tab
 - CTRL SHIFT [ - previous tab
@@ -39,14 +41,14 @@ npm run dev
 
 ---
 ## TODO
-- TODO codespaces notify of github action
-- TODO codespaces sync dotfiles https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces
+- codespaces notify of github action
+- codespaces sync dotfiles https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces
 - TODO implement serverless function
     > ⚠️ Heads up! GitHub Pages _does not_ support serverless or edge functions. This means dynamic functionality will be disabled. See all the [unsupported features](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features).
-- TODO sync via something like firebase
-- TODO robust testing...
-- TODO resolve node version conflict as per creation log in codespace Node.js 16.20.2 vs 20 assumed by asdf
-- TODO consider Oauth a la drops
+- sync via something like firebase
+- robust testing...
+- resolve node version conflict as per creation log in codespace Node.js 16.20.2 vs 20 assumed by asdf
+- consider Oauth a la drops
 
 
 ## Changelog
